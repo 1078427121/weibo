@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:gravity="center"
+            android:id="@+id/myImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/myNickName"
+            android:text="nickname"
+            android:textSize="20dp"
+            android:gravity="left|center"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/myWeibo"
+        android:text="我的微博"
+
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="left|center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        />
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#FF4081"
+
+        />
+    <TextView
+        android:id="@+id/myGuanzhu"
+        android:text="关注"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="left|center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
+
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#FF4081"
+
+        />
+    <TextView
+        android:id="@+id/myFensi"
+        android:text="粉丝"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="left|center"/>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#FF4081"
+
+        />
+    <TextView
+        android:id="@+id/myMessage"
+        android:text="我的资料"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="left|center"
+        />
+
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#FF4081"
+
+        />
+    <TextView
+        android:id="@+id/myAdd"
+        android:text="写微博"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:gravity="left|center"
+        android:layout_height="60dp"
+        />
+
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#FF4081"
+
+        />
+    <TextView
+        android:id="@+id/myMsg"
+        android:text="消息"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:gravity="left|center"
+        android:layout_height="60dp"
+        />
+
+    <View  android:layout_height="1px"
+           android:layout_width="match_parent"
+           android:background="#FF4081"
+
+        />
+</LinearLayout>

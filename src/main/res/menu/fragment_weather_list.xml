@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="设置"
+        android:id="@+id/set_settings"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:title="share"
+        android:icon="@drawable/night04n"
+        android:id="@+id/share_weather"
+        app:showAsAction="always"/>
+
+</menu>
